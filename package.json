@@ -1,6 +1,6 @@
 {
-  "name": "indeksd",
-  "version": "0.0.17",
+  "name": "indeksddb",
+  "version": "0.0.18",
   "description": "A DSL for defining IndexedDB schemas that compile into a type safe database client.",
   "main": "./dist/main/index.js",
   "types": "./dist/main/index.d.ts",
@@ -27,8 +27,14 @@
     "pretest": "npm run build && npm run move:fixtures",
     "test": "node ./dist/tests/index.test.js"
   },
+  "homepage": "https://github.com/aaditmshah/indeksddb",
+  "bugs": "https://github.com/aaditmshah/indeksddb/issues",
   "author": "Kevin Greene",
+  "contributors": [
+    "Aadit M Shah <aaditmshah@aadit.codes> (https://aadit.codes/)"
+  ],
   "license": "ISC",
+  "repository": "github:aaditmshah/indeksddb",
   "devDependencies": {
     "@types/glob": "^7.2.0",
     "@types/node": "17.0.17",

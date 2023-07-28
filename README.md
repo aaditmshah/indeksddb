@@ -1,4 +1,4 @@
-# Indeksd
+# IndeksdDB
 
 A DSL for defining IndexedDB schemas.
 
@@ -7,7 +7,7 @@ Generate a type-safe IndexedDB client from a simple schema file.
 ## Installation
 
 ```
-npm i -D indeksd
+npm i -D indeksddb
 ```
 
 ## Usage
